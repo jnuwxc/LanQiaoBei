@@ -24,5 +24,6 @@ public class ALGO_1 {
             Arrays.sort(num2);
             System.out.println(num2[r - l - (k - 1)]);
         }
+
     }
 }
