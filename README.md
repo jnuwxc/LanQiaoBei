@@ -28,12 +28,14 @@
 
 格式为： 题目号.md
 
-created by jnuwxc
 
 ## 进度
 
 2019.11.27 ALGO_1,ALGO_1.md 区间k大数查询
 
 2019.11.28 ALGO_2,ALGO_2.md 最大最小公倍数
+
+**欢迎提问和建议，如果有c++小伙伴能提供c++的代码就更好了**
+**created by jnuwxc**
 
 
