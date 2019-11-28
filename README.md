@@ -2,7 +2,7 @@
 
 代码在src目录下，ALGO为算法训练，ADV为算法提高
 
-![蓝桥杯练习网址](http://lx.lanqiao.cn/index.page)
+[蓝桥杯练习网址](http://lx.lanqiao.cn/index.page)
 
 ## 题目
 
