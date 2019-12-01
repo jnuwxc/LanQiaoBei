@@ -1,6 +1,8 @@
 package ALGO;
 //算法训练 最大最小公倍数
 //http://lx.lanqiao.cn/problem.page?gpid=T12
+//题目详情与解析见ALGO_1.md
+
 import java.util.Scanner;
 
 public class ALGO_2 {

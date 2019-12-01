@@ -1,6 +1,7 @@
 package ALGO;
 //算法训练 K好数
 //http://lx.lanqiao.cn/problem.page?gpid=T13
+//题目详情与解析见ALGO_1.md
 
 import java.util.Scanner;
 

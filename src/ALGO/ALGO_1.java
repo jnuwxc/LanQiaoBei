@@ -2,6 +2,7 @@ package ALGO;
 
 //算法训练 区间k大数查询
 //http://lx.lanqiao.cn/problem.page?gpid=T11
+//题目详情与解析见ALGO_1.md
 
 import java.util.Arrays;
 import java.util.Scanner;
