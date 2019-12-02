@@ -28,7 +28,7 @@
 
 ## 数据规模与约定
 
-对于30%的数据，![](http://chart.googleapis.com/chart?cht=tx&chl=B^L\leq1e6);
+对于30%的数据，![公式图片](http://chart.googleapis.com/chart?cht=tx&chl=B^L\leq1e6);
 
 对于50%的数据，![](http://chart.googleapis.com/chart?cht=tx&chl=K\leq16,L\leq10)；
 
