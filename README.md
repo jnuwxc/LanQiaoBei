@@ -55,8 +55,8 @@ java代码：题目号.java
 ~~如果有c++小伙伴能提供c++的代码就更好了~~ 感谢zym提供的c++代码
 
 github的markdown不支持latex公式，若要使用，请使用谷歌提供的接口：
-`![](http://chart.googleapis.com/chart?cht=tx&chl=Latex公式)`
-
+`![](http://chart.googleapis.com/chart?cht=tx&chl=Latex公式)`。
+但是使用在线接口，除了latex中的特殊字符需要转译外，url编码中的字符也需要注意。如+使用%2B，空格使用%20来转译。
 
 **created by jnuwxc, zym**
 
