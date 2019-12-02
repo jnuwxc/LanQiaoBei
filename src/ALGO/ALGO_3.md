@@ -32,7 +32,7 @@
 
 对于50%的数据，![](http://chart.googleapis.com/chart?cht=tx&chl=K\leq16,L\leq10)；
 
-对于100%的数据，![](http://chart.googleapis.com/chart?cht=tx&chl=1\leqK,L\leq100)。
+对于100%的数据，![](http://chart.googleapis.com/chart?cht=tx&chl=1\leqK,L\leq100).
 
 ## 题解
 
@@ -57,4 +57,4 @@ dp数组必须是能表示可分状况的数组，那么将较短的情况连接
 
 结果为
 
-![](http://chart.googleapis.com/chart?cht=tx&chl=\begin{equation*}result=\sum_{j=1}^kdp[l][j]\end{equation*})
+![](http://chart.googleapis.com/chart?cht=tx&chl=\begin{equation*}result=\sum_{j=1}^kdp[l][j]\end{equation*});
