@@ -53,6 +53,4 @@ dp数组必须是能表示可分状况的数组，那么将较短的情况连接
 
 记得取余1000000007
 
-结果为![](http://chart.googleapis.com/chart?cht=tx&chl=\begin{equation*}
-                                                    result = \sum_{j=1}^k-1dp[l][j]
-                                                    \end{equation*})
+结果为![](http://chart.googleapis.com/chart?cht=tx&chl=\begin{equation*}result=\sum_{j=1}^k-1dp[l][j]\end{equation*})
