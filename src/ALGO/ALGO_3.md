@@ -47,7 +47,7 @@ dp数组必须是能表示可分状况的数组，那么将较短的情况连接
 
 既然想出了dp数组的含义，题目就很容易解出了。
 
-![](http://chart.googleapis.com/chart?cht=tx&chl=dp[i][j]=\sum_{m=0}^kdp[i-1][m],\quad%20m\not=j-1,m\not=j%2b1)
+![](http://chart.googleapis.com/chart?cht=tx&chl=dp[i][j]=\sum_{m=0}^kdp[i-1][m],\quadm\not=j-1,m\not=j%2b1)
 
 记得将dp[1][j]初始化为1。
 
