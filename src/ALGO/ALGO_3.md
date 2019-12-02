@@ -32,7 +32,7 @@
 
 对于50%的数据，![](http://chart.googleapis.com/chart?cht=tx&chl=K\leq16,L\leq10)；
 
-对于100%的数据，![](http://chart.googleapis.com/chart?cht=tx&chl=1\leqK,L\leq100).
+对于100%的数据，![](http://chart.googleapis.com/chart?cht=tx&chl=1\leq K,L\leq100)
 
 ## 题解
 
