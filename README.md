@@ -46,9 +46,14 @@ java代码：题目号.java
 
 2019.11.29 zym加入，提供c++代码。ALGO_1.cpp, ALGO_2.cpp, ALGO_3.cpp
 
+## 其他
+
 **欢迎提问和建议**
 
-~~如果有c++小伙伴能提供c++的代码就更好了~~**感谢zym提供的代码与解析**
+~~如果有c++小伙伴能提供c++的代码就更好了~~ **感谢zym提供的c++代码**
+
+**github的markdown不支持latex公式，若要使用，请使用谷歌提供的接口：`![](http://chart.googleapis.com/chart?cht=tx&chl=Latex公式)`**
+
 
 **created by jnuwxc, zym**
 

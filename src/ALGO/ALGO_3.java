@@ -10,7 +10,7 @@ public class ALGO_3 {
         Scanner scanner = new Scanner(System.in);
         int k = scanner.nextInt();
         int l = scanner.nextInt();
-        //dp[i][j]表示i位，以j为首字母的所有复合情况的个数
+        //dp[i][j]表示i位，以j为首字母的所有符合情况的个数
         int[][] dp = new int[l + 1][k];
         for (int j = 0; j < k; j++) {
             dp[1][j] = 1;

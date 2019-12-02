@@ -28,14 +28,31 @@
 
 ## 数据规模与约定
 
-对于30%的数据，![](http://chart.googleapis.com/chart?cht=tx&chl=B^L\leq1e6) ；
+对于30%的数据，![](http://chart.googleapis.com/chart?cht=tx&chl=B^L\leq1e6);
 
-对于50%的数据，K <= 16， L <= 10；
+对于50%的数据，![](http://chart.googleapis.com/chart?cht=tx&chl=K\leq16,L\leq10)；
 
-对于100%的数据，1 <= K,L <= 100。
+对于100%的数据，![](http://chart.googleapis.com/chart?cht=tx&chl=1\leqK,L\leq100)。
 
 ## 题解
 
-## 复杂度
+一道典型的动态规划题目。
 
-O()
+我们用dp[i][j]表示i位，以j为首字母的所有符合情况的K好数个数,
+数组的大小为(l+1, k)，显然第一行是无用的。
+
+本题的难处也在于上面dp数组的表示方式，可以想到的是，
+dp数组必须是能表示可分状况的数组，那么将较短的情况连接起来就必须要注意到连接点的问题，
+这里我们是考虑了首字母，当然也可以考虑尾字母，效果是相同的。
+
+既然想出了dp数组的含义，题目就很容易解出了。
+
+![](http://chart.googleapis.com/chart?cht=tx&chl=dp[i][j]=dp[i-1][m],m\notj-1\quadand\quadm\notj+1)
+
+记得将dp[1][j]初始化为1。
+
+记得取余1000000007
+
+结果为![](http://chart.googleapis.com/chart?cht=tx&chl=\begin{equation*}
+                                                    result = \sum_{j=1}^k-1dp[l][j]
+                                                    \end{equation*})
