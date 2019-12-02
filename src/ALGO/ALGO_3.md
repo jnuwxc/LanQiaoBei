@@ -47,10 +47,12 @@ dp数组必须是能表示可分状况的数组，那么将较短的情况连接
 
 既然想出了dp数组的含义，题目就很容易解出了。
 
-![](http://chart.googleapis.com/chart?cht=tx&chl=dp[i][j]=dp[i-1][m],m\not=j-1\quadand\quadm\not=j+1)
+![](http://chart.googleapis.com/chart?cht=tx&chl=dp[i][j]=\sum_dp[i-1][m],m\not=j-1\quadand\quadm\not=j+1)
 
 记得将dp[1][j]初始化为1。
 
 记得取余1000000007
 
-结果为![](http://chart.googleapis.com/chart?cht=tx&chl=\begin{equation*}result=\sum_{j=1}^k-1dp[l][j]\end{equation*})
+结果为
+
+![](http://chart.googleapis.com/chart?cht=tx&chl=\begin{equation*}result=\sum_{j=1}^kdp[l][j]\end{equation*})
