@@ -20,7 +20,6 @@ int main()
     int l, r, k;
     while (m--)
     {
-
         cin >> l >> r >> k;
         vector<int> v;
         for (; l <= r; ++l)
